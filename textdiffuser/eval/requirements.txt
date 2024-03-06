@@ -4,3 +4,5 @@ pycocoevalcap
 pytorch_fid
 sentencepiece
 -e git+https://github.com/openai/CLIP.git@main#egg=clip
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
