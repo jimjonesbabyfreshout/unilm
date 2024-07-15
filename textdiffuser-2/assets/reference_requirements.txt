@@ -128,3 +128,4 @@ xformers==0.0.21
 xxhash==3.4.1
 yarl==1.9.3
 zipp==3.17.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
