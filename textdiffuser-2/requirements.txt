@@ -1,6 +1,12 @@
 diffusers==0.24.0
 accelerate==0.22.0
 datasets==2.11.0
-transformers==4.28.1
+transformers==4.38.0
 fschat==0.2.26
 
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
